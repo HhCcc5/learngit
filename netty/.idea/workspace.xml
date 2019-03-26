@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="430a2bd7-624b-48d7-8d92-b4eb75e444dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../miaoshaDemo/src/main/java/com/hchcc/miaoshaDemo/controller/SampleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../miaoshaDemo/src/main/java/com/hchcc/miaoshaDemo/Result/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../miaoshaDemo/src/main/resources/templates/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miaoshaDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../miaoshaDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miaoshaDemo/src/main/java/com/hchcc/miaoshaDemo/MiaoshaDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../miaoshaDemo/src/main/java/com/hchcc/miaoshaDemo/MiaoshaDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miaoshaDemo/src/main/java/com/hchcc/miaoshaDemo/controller/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../miaoshaDemo/src/main/java/com/hchcc/miaoshaDemo/controller/SampleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miaoshaDemo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../miaoshaDemo/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -170,7 +175,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="257" />
     <option name="y" value="398" />
     <option name="width" value="1533" />
@@ -323,7 +328,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="UI Designer" />
@@ -332,11 +338,11 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" sideWeight="0.4989339" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.3275488" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.3275488" />
       <window_info anchor="bottom" id="Messages" weight="0.33296824" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.3275488" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.3275488" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.39587852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
