@@ -1,13 +1,13 @@
-package com.hchcc.test1;
+package com.miaosha.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Test1Application {
+public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Test1Application.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 	}
 
 }
