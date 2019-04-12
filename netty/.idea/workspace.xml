@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="430a2bd7-624b-48d7-8d92-b4eb75e444dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../miaoshaDemo/src/main/java/com/hchcc/miaoshaDemo/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../miaoshaDemo/src/main/java/com/hchcc/miaoshaDemo/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../miaoshaDemo/src/main/java/com/hchcc/miaoshaDemo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../miaoshaDemo/src/main/java/com/hchcc/miaoshaDemo/redis/RedisConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../miaoshaDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../miaoshaDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miaoshaDemo/src/main/java/com/hchcc/miaoshaDemo/Result/Result.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../miaoshaDemo/src/main/java/com/hchcc/miaoshaDemo/controller/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../miaoshaDemo/src/main/java/com/hchcc/miaoshaDemo/controller/SampleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miaoshaDemo/src/main/java/com/hchcc/miaoshaDemo/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../miaoshaDemo/src/main/java/com/hchcc/miaoshaDemo/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miaoshaDemo/src/main/java/com/hchcc/miaoshaDemo/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../miaoshaDemo/src/main/java/com/hchcc/miaoshaDemo/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../miaoshaDemo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../miaoshaDemo/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -32,7 +33,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/TimeServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
+            <state relative-caret-position="429">
               <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -169,13 +170,14 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="257" />
-    <option name="y" value="398" />
-    <option name="width" value="1533" />
-    <option name="height" value="754" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -322,10 +324,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="257" y="398" width="1533" height="754" extended-state="7" />
-    <editor active="true" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22267482" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35886213" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -339,13 +340,13 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4989339" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.32741934" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.22234392" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.33296824" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.020366598" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.032822758" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
@@ -441,7 +442,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/TimeServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
+        <state relative-caret-position="429">
           <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />

@@ -1,7 +1,5 @@
 package com.hchcc.miaoshaDemo.controller;
 
-
-import com.hchcc.miaoshaDemo.Result.Result;
 import com.hchcc.miaoshaDemo.model.User;
 import com.hchcc.miaoshaDemo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,11 +22,6 @@ public class SampleController {
         return "Hello World";
     }
 
-    @RequestMapping("/result")
-    @ResponseBody
-    public Result<String> result(){
-        return new Result<String>(0,"success","Hello world");
-    }
 
 
     @RequestMapping("/thymeleaf")
@@ -37,12 +30,17 @@ public class SampleController {
         return "hello";
     }
 
-    @RequestMapping("/dbTest")
+    @RequestMapping("/dbGet")
     @ResponseBody
     public String dbGet(Model model){
         User user = userService.getById(1);
         return user.getName();
     }
-    //1. rest ful json
-    //2. 页面
+
+    @RequestMapping("/dbTx")
+    @ResponseBody
+    public String dbTx(){
+        return userService.tx().toString();
+
+    }
 }
